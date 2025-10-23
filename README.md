@@ -15,6 +15,7 @@ Modular collection of custom configurations and filters for Logstash, designed t
 - Kaspersky
 - Deep Security Manager
 - F5 BIG-IP (WAF)
+- Nutanix
 - AIX System
 
 # Requirements
