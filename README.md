@@ -29,15 +29,32 @@ A modular collection of custom configurations and advanced filters for Logstash.
 
 ## 🚀 Usage & Deployment
 
-1.- Clone the repository:
+1. Clone the repository:
 
-´https://github.com/erickrr-bd/Logstash-configurations.git´
+`https://github.com/erickrr-bd/Logstash-configurations.git`
 
-## Recommendations
-- Validate filters with real data before production
-- Document exclusions and unmapped fields
-- Align pipelines to audit and operational continuity controls
+2. Integrate Filters: Copy the desired .conf file from the filters/ directory to your Logstash pipeline path:
 
-## Contributions
+`cp ./filters/nsx.conf /etc/logstash/conf.d/`
 
-Improvements, new filters and additional documentation are accepted. 
+3. Test Configuration: Always validate your syntax before restarting the service:
+
+`/usr/share/logstash/bin/logstash -f /etc/logstash/conf.d/nsx.conf --config.test_and_exit`
+
+## 💡 Best Practices & Recommendations
+
+[!IMPORTANT]
+Data Privacy: Ensure that sensitive information (PII) is masked or dropped during the filter stage before reaching the index.
+
+- Testing: Validate filters with a sample of real production data in a staging environment.
+- Documentation: Maintain a record of exclusions and any unmapped fields specific to your organization.
+- Compliance: Align your pipeline logic with internal audit controls and operational continuity standards.
+
+## 🤝 Contributions
+
+Contributions are welcome! If you have a new filter or performance improvement:
+
+- Make a Fork of the project.
+- Create a Branch for your improvement (`git checkout -b feature/AmazingFilter`).
+- Commit your changes.
+- Open a Pull Request.
