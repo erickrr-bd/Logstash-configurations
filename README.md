@@ -1,8 +1,8 @@
-#🚀 Logstash Configurations
+🚀 #Logstash Configurations
 
 A modular collection of custom configurations and advanced filters for Logstash. This repository is designed to bridge the gap between complex enterprise log structures and actionable data, ensuring compatibility with the Elastic Common Schema (ECS).
 
-##✨ Key Features
+✨ ##Key Features
 - Modular Architecture: Independent filters organized by system and application.
 - Enterprise Ready: Robust parsing for ambiguous delimiters and mixed structures.
 - Compliance Focused: Validation of key fields to support traceability, auditing, and forensic analysis.
