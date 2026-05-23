@@ -9,19 +9,21 @@ A modular collection of custom configurations and advanced filters for Logstash.
 - ECS Aligned: Designed to maintain consistency across business pipelines and dashboards.
 
 ## 📂 Supported Configurations
-- RHEL 8/Rocky Linux 8 (auditd/audisp) (Compatible with version 9)
-- RHEL 7/Rocky Linux 7 ([uAuditAnalyzer](https://github.com/unmanarc/uAuditAnalyzer2))
-- AIX System
-- Imperva SecureSphere (DBF)
-- BIG-IP F5 (WAF)
-- Check Point FW-5600 (Firewall)
-- Check Point SmartDefense
-- GitHub Enterprise
-- Kaspersky Security Center
-- Deep Security Agent (Trend Micro)
-- Trend Vision One (Trend Micro)
-- Nutanix
-- VMware NSX
+
+| Category | System / Application | Source / Method |
+| :--- | :--- | :--- |
+| **OS & Auditing** | RHEL / Rocky Linux 8 & 9 | auditd / audisp |
+| | RHEL / Rocky Linux 7 | [uAuditAnalyzer](https://github.com/unmanarc/uAuditAnalyzer2) |
+| | AIX Systems | Native logs |
+| **Security (WAF/FW)** | Imperva SecureSphere | Database Firewall (DBF) |
+| | F5 BIG-IP | WAF Events |
+| | Check Point FW-5600 | Firewall Logs |
+| | Check Point | SmartDefense |
+| **Cloud & Endpoint** | GitHub Enterprise | Audit Logs |
+| | Kaspersky | Security Center |
+| | Trend Micro | Deep Security Agent / Vision One |
+| **Infrastructure** | Nutanix | Hypervisors |
+| | VMware NSX | Network Virtualization |
 
 ## 🛠️ Requirements
 - Logstash Engine: Versions 7.x or 8.x.
