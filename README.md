@@ -54,9 +54,13 @@ Data Privacy: Ensure that sensitive information (PII) is masked or dropped durin
 
 ## 🤝 Contributions
 
-Contributions are welcome! If you have a new filter or performance improvement:
+Contributions are more than welcome! If you have a new filter or a performance improvement, please follow these steps:
 
-- Make a Fork of the project.
-- Create a Branch for your improvement (`git checkout -b feature/AmazingFilter`).
-- Commit your changes.
-- Open a Pull Request.
+1. **Fork** the project.
+2. **Create a branch** for your improvement (`git checkout -b feature/AmazingFilter`).
+3. **Commit** your changes (`git commit -m 'Add some AmazingFilter'`).
+4. **Push** to the branch (`git push origin feature/AmazingFilter`).
+5. **Open a Pull Request**.
+
+📝 License
+Distributed under the MIT License. See LICENSE for more information.
