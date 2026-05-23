@@ -31,6 +31,7 @@ A modular collection of custom configurations and advanced filters for Logstash.
 
 1.- Clone the repository:
 
+´https://github.com/erickrr-bd/Logstash-configurations.git´
 
 ## Recommendations
 - Validate filters with real data before production
