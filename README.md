@@ -8,7 +8,7 @@ A modular collection of custom configurations and advanced filters for Logstash.
 - Compliance Focused: Validation of key fields to support traceability, auditing, and forensic analysis.
 - ECS Aligned: Designed to maintain consistency across business pipelines and dashboards.
 
-## Configurations
+## 📂 Supported Configurations
 - RHEL 8/Rocky Linux 8 (auditd/audisp) (Compatible with version 9)
 - RHEL 7/Rocky Linux 7 ([uAuditAnalyzer](https://github.com/unmanarc/uAuditAnalyzer2))
 - AIX System
@@ -23,12 +23,14 @@ A modular collection of custom configurations and advanced filters for Logstash.
 - Nutanix
 - VMware NSX
 
-## Requirements
-- Logstash version 7.x or 8.x
+## 🛠️ Requirements
+- Logstash Engine: Versions 7.x or 8.x.
+- Plugins: Ensure logstash-filter-grok, logstash-filter-mutate, and logstash-filter-date are installed (standard in most distributions).
 
-## Usage
+## 🚀 Usage & Deployment
 
-Copy the filter to your Logstash pipeline or configuration.
+1.- Clone the repository:
+
 
 ## Recommendations
 - Validate filters with real data before production
