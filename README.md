@@ -1,12 +1,12 @@
-# Logstash-configurations
+#🚀 Logstash Configurations
 
-Modular collection of custom configurations and filters for Logstash, designed to adapt log parsing to particular structures of enterprise systems and applications. 
+A modular collection of custom configurations and advanced filters for Logstash. This repository is designed to bridge the gap between complex enterprise log structures and actionable data, ensuring compatibility with the Elastic Common Schema (ECS).
 
-## Features
-- Modular filters by system/application
-- Compatibility with ECS and business pipelines
-- Robust parsing for ambiguous delimiters and mixed structures
-- Validation of key fields for traceability and auditing
+##✨ Key Features
+- Modular Architecture: Independent filters organized by system and application.
+- Enterprise Ready: Robust parsing for ambiguous delimiters and mixed structures.
+- Compliance Focused: Validation of key fields to support traceability, auditing, and forensic analysis.
+- ECS Aligned: Designed to maintain consistency across business pipelines and dashboards.
 
 ## Configurations
 - RHEL 8/Rocky Linux 8 (auditd/audisp) (Compatible with version 9)
